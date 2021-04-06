@@ -1,3 +1,6 @@
+import {$, createElement} from '/dom.js'
+import {Person} from '/person.js';
+
 const createBtn = $('#btnCreate');
 const txtFirstName = $('#txtFirstName');
 const txtLastName = $('txtLastName');
